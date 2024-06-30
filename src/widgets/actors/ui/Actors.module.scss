@@ -1,0 +1,42 @@
+@import '@/app/styles';
+
+.title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  color: $text;
+}
+
+.container {
+  @include flexColumn;
+  row-gap: 24px;
+}
+
+.list {
+  @include flexRow;
+  column-gap: 24px;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.switcherList {
+  @include flexRow;
+  align-items: center;
+  position: relative;
+}
+
+.switcherL {
+  position: absolute;
+  left: 0;
+}
+
+.switcherR {
+  position: absolute;
+  right: 0;
+}

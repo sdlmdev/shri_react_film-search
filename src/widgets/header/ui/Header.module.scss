@@ -1,0 +1,13 @@
+@import '@/app/styles';
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 24px 32px;
+  background-color: $header-bg;
+  max-height: 88px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}

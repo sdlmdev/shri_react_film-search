@@ -1,0 +1,22 @@
+@import '@/app/styles';
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  border-radius: $global-br;
+  padding: 24px;
+  max-width: 408px;
+  width: 100%;
+  row-gap: 16px;
+  background-color: #fff;
+  max-height: 232px;
+  height: 100%;
+}
+
+.title {
+  margin-bottom: 4px;
+  color: $text;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%;
+}

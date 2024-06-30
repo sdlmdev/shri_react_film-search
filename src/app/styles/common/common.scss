@@ -1,0 +1,15 @@
+@import '../colors/colors.scss';
+
+$global-br: 8px;
+$global-transition: all 0.3s ease-in-out;
+$active-border: 1px solid $active;
+
+@mixin flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin flexRow {
+  display: flex;
+  flex-direction: row;
+}

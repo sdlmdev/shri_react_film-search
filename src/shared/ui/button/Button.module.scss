@@ -1,0 +1,21 @@
+@import '@/app/styles';
+
+.button {
+  border-radius: $global-br;
+  border: 1px solid $active;
+  padding: 8px 16px;
+  transition: 0.3s ease-in-out;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.default {
+  background-color: $active;
+  color: #fff;
+}
+
+.outline {
+  color: $active;
+}

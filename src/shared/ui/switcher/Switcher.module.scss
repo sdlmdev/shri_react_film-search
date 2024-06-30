@@ -1,0 +1,39 @@
+@import '@/app/styles';
+
+.switcher {
+  background-image: url('@/shared/ui/assets/icons/arrow-right.svg');
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 32px;
+  width: 48px;
+  height: 48px;
+  padding: 8px;
+}
+
+.switcher:hover {
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.3);
+  opacity: 0.5;
+}
+
+.small {
+  width: 32px;
+  height: 32px;
+}
+
+.right {
+  transform: rotate(0deg);
+}
+
+.left {
+  transform: rotate(180deg);
+}
+
+.disable {
+  opacity: 0.5;
+}
+
+.disable:hover {
+  box-shadow: none;
+  cursor: default;
+}

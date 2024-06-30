@@ -1,0 +1,7 @@
+@import '@/app/styles';
+
+.container {
+  @include flexColumn;
+  row-gap: 24px;
+  width: 100%;
+}

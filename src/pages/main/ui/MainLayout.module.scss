@@ -1,0 +1,13 @@
+@import '@/app/styles';
+
+.main {
+  @include flexColumn;
+  background-color: $page-bg;
+  min-height: 100vh;
+}
+
+.content {
+  @include flexRow;
+  padding: 20px 32px;
+  column-gap: 24px;
+}

@@ -1,0 +1,82 @@
+@import '@/app/styles';
+
+.container {
+  @include flexRow;
+  max-width: 120px;
+  width: 100%;
+  max-height: 120px;
+}
+
+.star1, .star2, .star3, .star4, .star5 {
+  width: 24px;
+  height: 44px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.star1 {
+  background-image: url('@/shared/ui/assets/icons/star1.svg');
+}
+
+.star1:hover {
+  background-image: url('@/shared/ui/assets/icons/star1-hover.svg');
+}
+
+.star1-active {
+  background-image: url('@/shared/ui/assets/icons/star1-active.svg');
+}
+
+.star2 {
+  background-image: url('@/shared/ui/assets/icons/star2.svg');
+}
+
+.star2:hover {
+  background-image: url('@/shared/ui/assets/icons/star2-hover.svg');
+}
+
+.star2-active {
+  background-image: url('@/shared/ui/assets/icons/star2-active.svg');
+}
+
+.star3 {
+  background-image: url('@/shared/ui/assets/icons/star3.svg');
+}
+
+.star3:hover {
+  background-image: url('@/shared/ui/assets/icons/star3-hover.svg');
+}
+
+.star3-active {
+  background-image: url('@/shared/ui/assets/icons/star3-active.svg');
+}
+
+.star4 {
+  background-image: url('@/shared/ui/assets/icons/star4.svg');
+}
+
+.star4:hover {
+  background-image: url('@/shared/ui/assets/icons/star4-hover.svg');
+}
+
+.star4-active {
+  background-image: url('@/shared/ui/assets/icons/star4-active.svg');
+}
+
+.star5 {
+  background-image: url('@/shared/ui/assets/icons/star5.svg');
+}
+
+.star5:hover {
+  background-image: url('@/shared/ui/assets/icons/star5-hover.svg');
+}
+
+.star5-active {
+  background-image: url('@/shared/ui/assets/icons/star5-active.svg');
+}
+
+@media screen and (max-width: 1024px){
+  .container {
+    flex-wrap: wrap;
+  }
+}
