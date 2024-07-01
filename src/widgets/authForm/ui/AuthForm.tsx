@@ -19,9 +19,9 @@ export const AuthForm: FC<AuthFormProps> = ({ isPopupOpen, setIsPopupOpen }) => 
 
   const handleLogin = async () => {
     try {
-      const actionResult = dispatch(login({ username, password }));
-      const token = (await actionResult).payload;
-
+      const actionResult = await dispatch(login({ username, password }));
+      const token = actionResult.payload;
+      
       if (token) {
         dispatch(setToken(token));
         handleClose();
